@@ -1,0 +1,102 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("./frisbee-thrower.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#bfe664, #70b75e);
+}
+
+.banner-title {
+    color: rgb(113, 120, 103);
+    position: relative;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 25%;
+}
+
+
+.banner-links {
+    display: flex;
+    gap: 40px;
+    padding-left: 5%;
+}
+
+.banner-links a {
+    font-size: 1em;
+    color: rgb(113, 120, 103);
+    text-decoration: none;
+}
+
+.banner-links a:hover {
+    border-radius: 5px;
+    background-color: rgb(158, 223, 158);
+    padding: 10px;
+}
+
+
+.home-button-explore:hover {
+    background-color: rgb(218, 255, 154);
+}
+
+.explore-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.home-button-explore {
+    height: 65px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-page-main-text {
+    margin-top: 300px;
+    margin-bottom: 0px;
+}
+
+.home-page-main-text-bottom {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.home-page-main-text, .home-page-main-text-bottom {
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
