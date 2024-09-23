@@ -107,10 +107,9 @@ body {
     bottom: 0px;
 }
 
-@media only screen and (max-width: 320px) {
-    
-    .home-page-main-text, .home-page-main-text-bottom {
-        margin-top: 40px;
-        margin-bottom: 40px;
+@media (min-width: 320px) {
+
+    .home-page-main-text{
+        margin-top: 500px;
     }
 }
