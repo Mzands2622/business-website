@@ -128,6 +128,15 @@ body {
         padding-right: 5px;
         max-width: 20px;
     }
+
+    .footer-text{
+        font-size: 20px;
+        position: absolute;
+        color: rgb(245, 221, 177);
+        letter-spacing: 2px;
+        left: 30px;
+        bottom: 0px;
+    }
     
 
 }
