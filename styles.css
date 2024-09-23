@@ -107,7 +107,7 @@ body {
     bottom: 0px;
 }
 
-@media (max-width: 735px) {
+@media (max-width: 900px) {
 
     .home-page-main-text{
         margin-top: 150x;
