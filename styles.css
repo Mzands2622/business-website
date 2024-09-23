@@ -107,9 +107,11 @@ body {
     bottom: 0px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 700px) {
 
     .home-page-main-text{
         margin-top: 500px;
+        color: red;
     }
+
 }
