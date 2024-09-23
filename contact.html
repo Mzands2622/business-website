@@ -79,12 +79,9 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             width: 100%;
-            height: 70%;
+            height: 85%;
             background: linear-gradient(#9198e5, #bfe664);
-
         }
-
-
 
         .more-info {
             display: flex;
@@ -115,10 +112,15 @@
             margin-left: 80px;
         }
 
-        p {
+        li {
             font-weight: medium;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 5px;
+        }
+
+        ul {
+            text-align: center;
+            list-style-type: none;
         }
 
         input {
@@ -146,17 +148,6 @@
          }
 
 
-        .footer-text{
-            font-size: 25px;
-            position: absolute;
-            color: rgb(245, 221, 177);
-            letter-spacing: 2px;
-            left: 50px;
-            bottom: -110px;
-        }
-            
-
-
     </style>
    </head> 
    <body>
@@ -175,25 +166,30 @@
 
     <div class="bottom-half">
         <div class="more-info">
-            <p class="form-title">Location: </p>
-            <p>Wheeler Park</p>
-            <p>880 Memorial Drive</p>
-            <p>Cambridge, MA, 02138</p>
+            <ul> 
+                <li class="form-title">Location: </li>
+                <li>Wheeler Park</li> 
+                <li>880 Memorial Drive</li>
+                <li>Cambridge, MA, 02138</li>          
+            </ul>
 
             <br/>
 
-            <p class="form-title">Customer Service: </p>
-            <p>Monday-Friday</p>
-            <p>9:00AM-5:00PM</p>
-            <p>1-234-4567</p>
-
+            <ul> 
+                <li class="form-title">Customer Service: </li>
+                <li>Monday-Friday</li> 
+                <li>9:00AM-5:00PM</li>
+                <li>1-234-4567</li>          
+            </ul>
+    
             <br/>
 
-            <p class="form-title">Corporate Office: </p>
-            <p>1730 Blake St</p>
-            <p>Denver, Colorado</p>
-
-
+            <ul> 
+                <li class="form-title">Corporate Office: </li>
+                <li>1730 Blake St</li> 
+                <li>9:00AM-5:00PM</li>
+                <li>Denver, Colorado</li>          
+            </ul>
         </div>
 
         <div class="contact-form">

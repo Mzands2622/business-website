@@ -65,7 +65,6 @@ body {
 .welcome {
     display: flex;
     flex-direction: column;
-    height: 100%;
     margin-left: 10%;
 }
 
@@ -99,20 +98,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .footer-text{
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     color: rgb(245, 221, 177);
     letter-spacing: 2px;
     left: 50px;
-    bottom: -110px;
+    bottom: 0px;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
