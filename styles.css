@@ -110,7 +110,7 @@ body {
 @media (max-width: 900px) {
 
     .home-page-main-text{
-        margin-top: 100px;
+        margin-top: 115px;
         font-size: 30px;
     }
 
@@ -125,7 +125,7 @@ body {
         font-weight: bold;
         text-decoration: none;
         margin-left: auto;
-        padding-left: 20px;
+        padding-right: 5px;
         max-width: 20px;
     }
     
