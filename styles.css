@@ -100,3 +100,19 @@ body {
 }
 
 
+
+.footer-text{
+    font-size: 25px;
+    position: absolute;
+    color: rgb(245, 221, 177);
+    letter-spacing: 2px;
+    left: 50px;
+    bottom: -110px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
