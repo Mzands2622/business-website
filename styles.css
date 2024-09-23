@@ -106,3 +106,11 @@ body {
     left: 50px;
     bottom: 0px;
 }
+
+@media only screen and (max-width: 320px) {
+    
+    .home-page-main-text, .home-page-main-text-bottom {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
