@@ -114,7 +114,7 @@ body {
 @media (max-width: 900px) {
 
     .banner-links a {
-        font-size: 30x;
+        font-size: 27px;
         color: rgb(113, 120, 103);
         text-decoration: none;
     }
@@ -131,7 +131,7 @@ body {
     .banner-title {
         color: rgb(113, 120, 103);
         position: relative;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: bold;
         text-decoration: none;
         margin-left: auto;
