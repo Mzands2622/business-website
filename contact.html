@@ -1,311 +1,306 @@
-<!DOCTYPE html> 
-<html>  
-   <head> 
-    <meta charset = "utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      <meta charset = "utf-8">
-      <style type="text/css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <style type="text/css">
+      body,
+      html {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+      }
 
-        body, html {
-            margin: 0px;
-            padding: 0px;
-            width: 100%;
-            height: 100%;
-        }
+      .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        font-family: "Montserrat", sans-serif;
+        background: linear-gradient(#bfe664, #70b75e);
+      }
 
-        .banner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            height: 100px;
-            font-family: 'Montserrat', sans-serif;
-            background: linear-gradient(#bfe664, #70b75e);
-        }
+      .banner-title {
+        color: rgb(113, 120, 103);
+        position: relative;
+        font-size: 1.75em;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 25%;
+      }
 
+      .banner-links {
+        display: flex;
+        gap: 40px;
+        padding-left: 5%;
+      }
+
+      .banner-links a {
+        font-size: 1em;
+        color: rgb(113, 120, 103);
+        text-decoration: none;
+      }
+
+      .banner-links a:hover {
+        border-radius: 5px;
+        background-color: rgb(158, 223, 158);
+        padding: 10px;
+      }
+
+      .background-image-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60%;
+        margin-top: 0px;
+        background-image: url("./frisbee-thrower-contact.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .contact-us-center-text {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        border: none;
+        font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .bottom-half {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 85%;
+        background: linear-gradient(#9198e5, #bfe664);
+      }
+
+      .more-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 85px;
+      }
+
+      .form-title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .bar {
+        width: 75%;
+        height: 30px;
+      }
+
+      .frisbee-drop {
+        width: 300px;
+        font-size: medium;
+      }
+
+      .diff-colors {
+        height: 300px;
+        width: 500px;
+        margin-top: 10%;
+        margin-left: 80px;
+      }
+
+      li {
+        font-weight: medium;
+        margin: 5px;
+      }
+
+      ul {
+        text-align: center;
+        list-style-type: none;
+      }
+
+      input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .submit-button {
+        height: 30px;
+        width: 135px;
+        margin-top: 32px;
+        margin-left: 35%;
+        display: flex;
+        border-radius: 15px;
+        font-size: medium;
+        background: linear-gradient(#c3c6ed, #7681e4);
+        border: none;
+        font-weight: 200;
+        color: black;
+      }
+
+      .submit-button:hover {
+        cursor: pointer;
+        background: linear-gradient(#c3c6ed, #9ca6fd);
+      }
+
+      .contact-link {
+        font-weight: bold;
+      }
+
+      @media (max-width: 900px) {
         .banner-title {
-            color: rgb(113, 120, 103);
-            position: relative;
-            font-size: 1.75em;
-            font-weight: bold;
-            text-decoration: none;
-            margin-left: auto;
-            margin-right: auto;
-            padding-right: 25%;
-        }
-
-        .banner-links {
-            display: flex;
-            gap: 40px;
-            padding-left: 5%;
-        }
-
-        .banner-links a {
-            font-size: 1em;
-            color: rgb(113, 120, 103);
-            text-decoration: none;
-        }
-
-        .banner-links a:hover {
-            border-radius: 5px;
-            background-color: rgb(158, 223, 158);
-            padding: 10px;
-        }
-
-        .background-image-details {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 60%;
-            margin-top: 0px;
-            background-image: url("./frisbee-thrower-contact.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+          color: rgb(113, 120, 103);
+          position: relative;
+          font-size: 1em;
+          font-weight: bold;
+          text-decoration: none;
+          margin-left: auto;
+          padding-right: 5px;
+          max-width: 20px;
         }
 
         .contact-us-center-text {
-            color: white;
-            font-weight: bold;
-            border: none;
-            font-size: 50px;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        .bottom-half {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            width: 100%;
-            height: 85%;
-            background: linear-gradient(#9198e5, #bfe664);
-        }
-
-        .more-info {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 85px;
-        }
-
-        .form-title {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .bar {
-            width: 75%;
-            height: 30px;
-        }
-
-        .frisbee-drop {
-            width: 300px;
-            font-size: medium;
-        }
-
-        .diff-colors {
-            height: 300px;
-            width: 500px;
-            margin-top: 10%;
-            margin-left: 80px;
-        }
-
-        li {
-            font-weight: medium;
-            margin: 5px;
-        }
-
-        ul {
-            text-align: center;
-            list-style-type: none;
-        }
-
-        input {
-            margin-top: 10px;
-            margin-bottom: 10px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          border: none;
+          font-size: 30px;
+          font-family: "Montserrat", sans-serif;
         }
 
         .submit-button {
-            height: 30px;
-            width: 135px;
-            margin-top: 32px;
-            margin-left: 35%;
-            display: flex;
-            border-radius: 15px;
-            font-size: medium;
-            background: linear-gradient(#c3c6ed, #7681e4);
-            border: none;
-            font-weight: 200;
-            color: black;
-        }
-
-        .submit-button:hover {
-            cursor: pointer;
-            background: linear-gradient(#c3c6ed, #9ca6fd);
-         }
-
-         @media (max-width: 900px) {
-
-
-        .banner-title {
-            color: rgb(113, 120, 103);
-            position: relative;
-            font-size: 1em;
-            font-weight: bold;
-            text-decoration: none;
-            margin-left: auto;
-            padding-right: 5px;
-            max-width: 20px;
-        }
-
-        .contact-us-center-text {
-            color: white;
-            font-weight: bold;
-            border: none;
-            font-size: 30px;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        .submit-button {
-            height: 30px;
-            justify-content: center;
-            max-width: 85px;
-            margin-top: 32px;
-            margin-left: 10%;
-            display: flex;
-            border-radius: 15px;
-            font-size: medium;
-            background: linear-gradient(#c3c6ed, #7681e4);
-            border: none;
-            font-weight: 200;
-            color: black;
+          height: 30px;
+          justify-content: center;
+          max-width: 85px;
+          margin-top: 32px;
+          margin-left: 10%;
+          display: flex;
+          border-radius: 15px;
+          font-size: medium;
+          background: linear-gradient(#c3c6ed, #7681e4);
+          border: none;
+          font-weight: 200;
+          color: black;
         }
 
         .bar {
-            width: 150px;
-            height: 15px;
+          width: 150px;
+          height: 15px;
         }
 
         p {
-            margin: 0px;
+          margin: 0px;
         }
 
         .frisbee-drop {
-            width: 150px;
-            font-size: medium;
+          width: 150px;
+          font-size: medium;
         }
 
         li {
-            font-weight: small;
-            margin: 0px;
+          font-weight: small;
+          margin: 0px;
         }
 
         ul {
-            text-align: center;
-            list-style-type: none;
-            font-size: 12px;
+          text-align: center;
+          list-style-type: none;
+          font-size: 12px;
         }
 
         .more-info {
-            margin-top: 60px;
-            margin-right: 20px;
+          margin-top: 60px;
+          margin-right: 20px;
         }
 
         .form-title {
-            font-size: 15px;
-            font-weight: bold;
+          font-size: 15px;
+          font-weight: bold;
         }
-
-
-
-    }
-
-
+      }
     </style>
-   </head> 
-   <body>
+  </head>
+  <body>
     <div class="banner">
-        <div class="banner-links">
-            <a href="./index.html">Home</a>
-            <a href="./testimonials.html">Our Mission</a>
-            <a href="./contact.html">Contact Us</a>
-        </div>
-        <a class="banner-title" href="./index.html">Throw To Grow</a>
+      <div class="banner-links">
+        <a href="./index.html">Home</a>
+        <a href="./testimonials.html">Our Mission</a>
+        <a class="contact-link" href="./contact.html">Contact Us</a>
+      </div>
+      <a class="banner-title" href="./index.html">Throw To Grow</a>
     </div>
 
     <div class="background-image-details">
-        <p class="contact-us-center-text">Want to learn more?</p>
+      <p class="contact-us-center-text">Want to learn more?</p>
     </div>
 
     <div class="bottom-half">
-        <div class="more-info">
-            <ul> 
-                <li class="form-title">Location: </li>
-                <li>Wheeler Park</li> 
-                <li>880 Memorial Drive</li>
-                <li>Cambridge, MA, 02138</li>          
-            </ul>
+      <div class="more-info">
+        <ul>
+          <li class="form-title">Location:</li>
+          <li>Wheeler Park</li>
+          <li>880 Memorial Drive</li>
+          <li>Cambridge, MA, 02138</li>
+        </ul>
 
-            <br/>
+        <br />
 
-            <ul> 
-                <li class="form-title">Customer Service: </li>
-                <li>Monday-Friday</li> 
-                <li>9:00AM-5:00PM</li>
-                <li>1-234-4567</li>          
-            </ul>
-    
-            <br/>
+        <ul>
+          <li class="form-title">Customer Service:</li>
+          <li>Monday-Friday</li>
+          <li>9:00AM-5:00PM</li>
+          <li>1-234-4567</li>
+        </ul>
 
-            <ul> 
-                <li class="form-title">Corporate Office: </li>
-                <li>1730 Blake St</li> 
-                <li>9:00AM-5:00PM</li>
-                <li>Denver, Colorado</li>          
-            </ul>
-        </div>
+        <br />
 
-        <div class="contact-form">
-            <form style="margin-top: 50px" method="get" action="#">
-            <div class="form-element">
-                <p>First Name:</p>
-                <input class="bar" type="text" name="your_first_name">
-            </div>
+        <ul>
+          <li class="form-title">Corporate Office:</li>
+          <li>1730 Blake St</li>
+          <li>9:00AM-5:00PM</li>
+          <li>Denver, Colorado</li>
+        </ul>
+      </div>
 
-            <div class="form-element">
-                <p>Last Name:</p>
-                <input class="bar"  type="text" name="your_last_name">
-            </div>
+      <div class="contact-form">
+        <form style="margin-top: 50px" method="get" action="#">
+          <div class="form-element">
+            <p>First Name:</p>
+            <input class="bar" type="text" name="your_first_name" />
+          </div>
 
-            <div class="form-element">
-                <p>Email:</p>
-                <input class="bar" type="text" name="your_email">
-            </div>
+          <div class="form-element">
+            <p>Last Name:</p>
+            <input class="bar" type="text" name="your_last_name" />
+          </div>
 
-            <div class="form-element">
-                <p>Phone:</p>
-                <input class="bar" type="text" name="your_phone_number">
-            </div>
+          <div class="form-element">
+            <p>Email:</p>
+            <input class="bar" type="text" name="your_email" />
+          </div>
 
-            <p>Pick your preferred color frisbee:</p>
-            <select name="frisbee_color" class="frisbee-drop">
-                <option value="red">Red</option>
-                <option value="blue">Blue</option>
-                <option value="green">Green</option>
-                <option value="yellow">Yellow</option>
-                <option value="purple">Purple</option>
-            </select>
-            <input class="submit-button" type="submit" value="SUBMIT">
-            </form>
+          <div class="form-element">
+            <p>Phone:</p>
+            <input class="bar" type="text" name="your_phone_number" />
+          </div>
 
-        </div>
-
+          <p>Pick your preferred color frisbee:</p>
+          <select name="frisbee_color" class="frisbee-drop">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+          </select>
+          <input class="submit-button" type="submit" value="SUBMIT" />
+        </form>
+      </div>
     </div>
-
-
-
-    </body>
+  </body>
 </html>
