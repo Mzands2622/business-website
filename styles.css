@@ -134,9 +134,11 @@ body {
         font-size: 15px;
         font-weight: bold;
         text-decoration: none;
-        margin-left: auto;
-        padding-right: 5px;
+        margin-left: 40px;
+        padding-right:px;
         max-width: 20px;
+        text-align: left;
+        white-space: nowrap;
     }
 
     .footer-text{
