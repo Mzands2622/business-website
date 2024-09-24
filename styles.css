@@ -114,9 +114,13 @@ body {
 @media (max-width: 900px) {
 
     .banner-links a {
-        font-size: 12px;
+        font-size: 13px;
         color: rgb(113, 120, 103);
         text-decoration: none;
+    }
+
+    .banner-links {
+        gap: 30px;
     }
 
     .home-page-main-text{
@@ -131,10 +135,10 @@ body {
     .banner-title {
         color: rgb(113, 120, 103);
         position: relative;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         text-decoration: none;
-        margin-left: 40px;
+        margin-left: 30px;
         max-width: 20px;
         text-align: left;
         white-space: nowrap;
