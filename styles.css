@@ -125,7 +125,7 @@ body {
     .banner-title {
         color: rgb(113, 120, 103);
         position: relative;
-        font-size: 5px;
+        font-size: 1em;
         font-weight: bold;
         text-decoration: none;
         margin-left: auto;
@@ -141,10 +141,5 @@ body {
         left: 30px;
         bottom: 0px;
     } 
-
-    .banner-links a {
-        font-size: 10px;
-    }
-    
 
 }
